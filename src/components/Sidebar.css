@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: #00B8D6;
+  color: white;
+  width: 200px;
+  height: 100vh !important;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  overflow: hidden;
+  transition: width 0.3s;
+  white-space: nowrap; 
+  z-index: 1000;
+}
+
+.sidebar .nav-link {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar .nav-link .icon {
+  margin-right: 10px;
+}
+
+.sidebar.closed .nav-link .icon {
+  margin-right: 0;
+}
+
+.sidebar.closed .nav-link span {
+  display: none;
+}

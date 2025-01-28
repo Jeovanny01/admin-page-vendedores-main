@@ -1,0 +1,37 @@
+.header {
+  background-color: #00B8D6;
+  padding: 10px 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-container {
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+}
+
+.header-logo {
+  max-height: 70px;
+  object-fit: contain;
+}
+
+.menu-icon {
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.user-icon {
+  color: white;
+  cursor: pointer;
+  margin-right: 2vw;
+}
+
+.head-container {
+  max-width: 100% !important;
+}

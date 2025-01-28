@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(to right, #00B8D6, #103177);
+  padding: 10px 20px;
+}
+
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  transition: width 0.3s;
+  background-color: #00B8D6;
+  color: white;
+  height: calc(100vh - 70px); 
+  position: fixed;
+  top: 60px;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.sidebar.closed {
+  width: 50px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 200px;
+  overflow-y: auto;
+  transition: margin-left 0.3s;
+}
+
+.App.sidebar-closed .content {
+  margin-left: 50px;
+}
+
+.login-page .content {
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page .main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+}

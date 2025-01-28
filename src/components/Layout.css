@@ -1,0 +1,19 @@
+.header {
+  background-color: #00B8D6;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.header-title {
+  color: white;
+  text-align: center;
+}
+
+.user-icon {
+  color: white;
+  cursor: pointer;
+}

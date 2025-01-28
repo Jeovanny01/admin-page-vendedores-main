@@ -1,0 +1,17 @@
+.table-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.table-row {
+  cursor: pointer;
+}
+
+.text-wrap {
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.custom-font-size {
+  font-size: 14px;
+}

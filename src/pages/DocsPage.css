@@ -1,0 +1,116 @@
+.date-filters {
+  display: flex;
+  gap: 10px;
+}
+
+.date-picker {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.searchBarContainer {
+  width: 200px;
+}
+
+.table-responsive {
+  width: 100%;
+}
+
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fixed-col {
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.notas {
+  width: 20%;
+}
+
+.col {
+  width: 7%;
+}
+
+.estado {
+  width: 10%;
+}
+
+.action-col {
+  width: 3.5%;
+}
+
+.detail-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.detail-text {
+  margin-left: 15px;
+}
+
+.imageStyles {
+  max-width: 150px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.tab-row p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+
+.modal-fullscreen .modal-dialog {
+  width: 80vw;
+  height: 80vh;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.modal-fullscreen .modal-content {
+  height: 80%;
+}
+
+
+.error-modal .modal-content {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.error-modal .modal-header {
+  border-bottom: none;
+}
+
+.error-modal .modal-title {
+  color: #721c24;
+}
+
+.error-modal .modal-body {
+  color: #721c24; 
+  font-size: 18px;
+  text-align: center; 
+}

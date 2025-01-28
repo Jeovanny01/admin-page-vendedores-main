@@ -1,0 +1,82 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchBarContainer {
+  width: 200px;
+}
+
+.createButton {
+  display: flex;
+  align-items: center;
+}
+
+.errorText {
+  color: red;
+  margin-top: 5px;
+}
+
+.table-responsive {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fixed-col {
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.name-col {
+  width: 25%;
+}
+
+.username-col {
+  width: 15%;
+}
+
+.email-col {
+  width: 23%;
+}
+
+.user-kind-col {
+  width: 15%;
+}
+
+.status-col {
+  width: 10%;
+}
+
+.usertype-col {
+  width: 15%;
+}
+
+.action-col {
+  width: 3.5%;
+}
+
+.password-input {
+  display: inline-block;
+  width: calc(100% - 40px);
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.fixed-col p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}
