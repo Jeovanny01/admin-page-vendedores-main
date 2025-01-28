@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
+    "caniuse-lite": "^1.0.30001695",
     "docxtemplater": "^3.48.0",
     "file-saver": "^2.0.5",
     "jspdf": "^2.5.1",
